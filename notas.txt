@@ -3,4 +3,26 @@ Algumas classes do tailwind:
 1 - sticky: mantém fixo no topo ou no final da página (precisa especificar)
 2 - top-(valor): indica o posicionamento no topo de algo
 3 - bg-gradient-to-r: faz um gradiente de cores da esquerda para direita (precisa especificar a cor de origem e a cor final)
-4 - 
+4 - text-cor-valor: classes de cor de texto que vem nesse padrão. Por exemplo: text-zinc-200 -> cor zinco de intensidade 200.
+5 - p-valor: padding nas 4 direções
+6 - gap-valor: adiciona espaçamento entre elementos
+
+
+Adicionando css customizado no tailwind:
+
+No arquivo input.css, que é o arquivo onde ele importa os estilos do tailwind, podemos adicionar estilos customizados de
+algumas formas. Uma delas é pondo regras próprias (classe ou id) ou adicionando em alguma camada do tailwind:
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Quicksand", sans-serif;
+  }
+}
+
+No exemplo acima, se importou uma fonte do google fonts e a jogou dentro camada (layer) base do tailwind, que fará com que ele
+use essa fonte, não a sua padrão.
