@@ -10,6 +10,11 @@ function Navbar() {
               tw:<span className="text-sky-900">mf</span>
             </div>
           </div>
+          <div className="flex flex-1 justify-end items-center">
+            <div className="flex items-center h-full p-4 cursor-pointer font-bold text-pink-200 hover:text-zinc-200 hover:bg-white/10 transition-colors ease-in-out">
+              Home
+            </div>
+          </div>
         </nav>
       </header>
     </main>

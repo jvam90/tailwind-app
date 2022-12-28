@@ -6,6 +6,13 @@ Algumas classes do tailwind:
 4 - text-cor-valor: classes de cor de texto que vem nesse padrão. Por exemplo: text-zinc-200 -> cor zinco de intensidade 200.
 5 - p-valor: padding nas 4 direções
 6 - gap-valor: adiciona espaçamento entre elementos
+7 - hover:(classe): permite aplicar alguma classe do tailwind quando houver o hover do mouse
+
+Posso ter mais de um hover:
+hover:text-zinc-200 hover:bg-white/10 -> vai mudar a cor do texto e a cor do fundo com opacidade
+
+8 - transition-colors: aplica o efeito de transição em cores
+9 - ease-in-out: efeito de temporização da mudança de cor pelo transition
 
 
 Adicionando css customizado no tailwind:
