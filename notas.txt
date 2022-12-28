@@ -1,0 +1,6 @@
+Algumas classes do tailwind:
+
+1 - sticky: mantém fixo no topo ou no final da página (precisa especificar)
+2 - top-(valor): indica o posicionamento no topo de algo
+3 - bg-gradient-to-r: faz um gradiente de cores da esquerda para direita (precisa especificar a cor de origem e a cor final)
+4 - 
